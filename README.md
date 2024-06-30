@@ -1,7 +1,5 @@
 # Welcome to Neko Repository
 
-This is a custom Arch Linux repository maintained by the Neko project.
-
 ## Adding the Repository
 
 To add the Neko repository to your system, append the following to your `/etc/pacman.conf`:
