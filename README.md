@@ -1,4 +1,13 @@
-# Welcome to Neko Repository
+# Neko Repository
+
+这个仓库现在不发布软件包。系统包走 Artix 的 `[system]` / `[world]`。
+
+旧的 dots、udev、openrc 包已经从数据库里拿掉。已经装过的机器执行：
+
+```bash
+doas pacman -Syy
+doas pacman -S udev libudev lib32-udev openrc esysusers etmpfiles
+```
 
 ## Adding the Repository
 
